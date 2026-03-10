@@ -10,12 +10,13 @@ const frases = [
 ];
 
 foto.addEventListener('click', () => {
-    // Sorteia uma posição da lista (0, 1, 2, 3 ou 4)
+    
     const indiceAleatorio = Math.floor(Math.random() * frases.length);
     const somSorteado = frases[indiceAleatorio];
 
-    // Toca o som que foi sorteado
+   
     const som = new Audio(somSorteado);
     som.play();
 
 });
+
