@@ -1,0 +1,28 @@
+body {
+    background-color: #1a1a1a; /* Um visual mais "show" */
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container { text-align: center; }
+
+img {
+    width: 300px;
+    border-radius: 50%; /* Deixa redondinho */
+    border: 5px solid gold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.1); /* Dá um zoom quando passa o mouse */
+}
+
+img:active {
+    transform: scale(0.95); /* Efeito de clique */
+}
