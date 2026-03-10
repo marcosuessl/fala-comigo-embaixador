@@ -1,6 +1,6 @@
 const foto = document.getElementById('btn-gusttavo');
 
-// Essa lista tem que ter os nomes EXATOS dos arquivos que aparecem na sua esquerda
+
 const frases = [
     'audio1.mp3',
     'audio2.mp3',
@@ -17,4 +17,5 @@ foto.addEventListener('click', () => {
     // Toca o som que foi sorteado
     const som = new Audio(somSorteado);
     som.play();
+
 });
